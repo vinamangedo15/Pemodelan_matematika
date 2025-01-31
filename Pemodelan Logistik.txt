@@ -1,0 +1,33 @@
+Model pertumbuhan Logistik
+
+Langkah 1 : Identifikasi Masalah Dunia Nyata
+Model pertumbuhan logistik digunakan untuk menggambarkan pertumbuhan yang terbatas oleh faktor-faktor lingkungan, seperti sumber daya yang terbatas. Model ini biasanya digunakan untuk menggambarkan proses pertumbuhan populasi atau pertumbuhan produksi yang tidak bisa berlangsung tanpa batas karena adanya keterbatasan.
+Contoh : stok obat-obatan 
+Distribusi obat-obatan ke korban bencana alam  di suatu wilayah yang terisolasi.
+Masalah : Terjadinya kekurangan stok obat-obatan, terutama jika permintaan obat meningkat secara drastis akibat jumlah korban yang besar.
+Langkah 2 : Formulasi Masalah ke dalam Matematika
+* P(t) adalah jumlah obat yang terdistribusikan pada waktu t
+* K adalah kapasitas distribusi maksimum
+* r adalah laju distribusi maksimum
+* P0 adalah jumlah obat yang sudah terdistribusi pada waktu awal
+* t adalah waktu yang dihitung (dalam jam).
+Langkah 3 :  Membuat Asumsi
+* Jumlah korban meningkat
+* Terjadi wabah penyakit
+* Akses yang sulit
+
+Langkah 4 : Formulasi Model Matematis
+
+dP/dt=rP(1-P/K)
+
+p(t)=K/(1+((K-P0)/P0) e^(-rt) )
+
+Dimana :
+P(t) = Jumlah obat yang terdistribusi dalam t
+K = Distribusi maksimum
+r = laju distribusi  maksimum
+P0 = jumlah obat yang terdistribusi
+t = waktu yang dihitung dalam jam 
+
+Langkah 4 : Penyelesaian Model
+
